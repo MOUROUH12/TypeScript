@@ -1,0 +1,20 @@
+#________________________________________________NPM_________________________________
+$npm init => to intialize 
+$npm install lite-server 
+> in scripts of package-lock.json add start= "lite-server"
+$npm start => to run local server 
+
+#___________________________________________Typescript________________________________
+$tsc app.ts => to compile ts => js
+$node app.js => to run js file 
+$tsc app.ts -w or $tsc app.ts --watch => watching ts file (watch mode) 
+> compiling the entire project
+$tsc --init => tells typescript that this folder is managed by typescript and it creates a tconfig.json  #a lot of ts file 
+> then u just need to run 
+$tsc => compiles entrie prj
+$tsc --watch => watching entire project
+#____________________________________End_______________________________________________
+
+
+
+#to debug typescript use sourceMap 

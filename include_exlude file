@@ -1,0 +1,15 @@
+>tsconfig.json file tells typescript how it should compile ts files 
+
+#include files 
+"include": [
+    'file1.ts',
+    'file2.ts',
+]
+
+#exclude files
+"exclude": [
+    'file1.ts',
+    'file2.ts',
+     '*.dev.ts', //exclude all file ends with dev.ts at
+     '**/*.dev.ts', //exclude any file in with pattren *.dev.ts in any folder
+]
